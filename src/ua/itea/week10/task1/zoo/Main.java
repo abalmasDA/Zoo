@@ -13,9 +13,14 @@ public class Main {
         zoo.addingAnimals("Hippopotamus");
         zoo.addingAnimals("Fox");
         zoo.addingAnimals("Wolf");
+        zoo.printInfoAllListAnimals();
 
-        zoo.getInfoAllListAnimals();
 
+        zoo.removingAnimals(7);
+        zoo.removingAnimals(5);
+        zoo.removingAnimals(3);
+        System.out.println(zoo.getSizeListAnimals());
+        zoo.printInfoAllListAnimals();
 
     }
 }
